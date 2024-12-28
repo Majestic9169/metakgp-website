@@ -9,10 +9,12 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-top: 24px;
+  /* margin-top: 24px; */
+  padding-top: 15px;
   padding-right: 4rem;
   padding-left: 4rem;
   gap: 3rem;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
 }
 
 .nav-bar {
@@ -46,17 +48,24 @@
   color: #000000;
 }
 
+.nav-bar .nav-element.active {
+  background: #ffffff;
+  color: #000000;
+}
+
 .metakgp-logo {
   float: left;
 }
 
 .bold {
+  color: #ffffff;
   font-family: "Titillium Web", sans-serif;
   font-weight: 700;
   font-style: normal;
 }
 
 .black {
+  color: #ffffff;
   font-family: "Titillium Web", sans-serif;
   font-weight: 900;
   font-style: normal;
@@ -267,15 +276,16 @@
   font-family: "Space Mono", monospace;
   display: flex;
   flex-wrap: wrap;
- background-color:  #1a1717;
- justify-content: center;
-padding-top:5px ;
+  background-color:  #1a1717;
+  justify-content: center;
+  padding-top: 5px;
 }
 .footer-col{
-  width: 33%;
+  /* width: 33%; */
+  text-align: center;
 }
 .social-icons{
- display: flex;
+  display: flex;
   justify-content: center;
 }
 .social-icons a{
