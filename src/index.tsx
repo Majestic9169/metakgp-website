@@ -8,19 +8,23 @@ import DCPage from "./pages/DCPage";
 import Projects from "./pages/Projects";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Layout } from "./components/Layout";
+
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 
 root.render(
   <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<App />} />
-      <Route path="/projects" element={<Projects />} />
-      <Route path="/contribute" element={<Contribute />} />
-      <Route path="/dc" element={<DCPage />} />
-      <Route path="/about" element={<About />} />
-    </Routes>
+    <Layout>
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contribute" element={<Contribute />} />
+        <Route path="/dc" element={<DCPage />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </Layout>
   </BrowserRouter>
 );
 
