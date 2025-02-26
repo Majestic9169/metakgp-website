@@ -23,6 +23,10 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
+> [!WARNING]
+> This Repository is archived and any further development on the metakgp website will occur at the official [MetaKGP Repository](https://github.com/metakgp/metakgp.org)
+> Thank you all for your contributions!
+
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
